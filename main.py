@@ -36,6 +36,8 @@ def process_pdf_and_extract_data(input_pdf, output_file):
     #saving the excel sheet
     excel_workbook.save(output_file)
 
-pdf_source = "/content/pdf_reader/test3 (1).pdf"  
-excel_destination = "/content/pdf_reader/output.xlsx"
+#enter the address of the input file
+pdf_source = "./input/test3 (1).pdf"
+#address of the output file  
+excel_destination = "./output/output.xlsx"
 process_pdf_and_extract_data(pdf_source, excel_destination)
